@@ -18,7 +18,7 @@ variable "admin_ip" {
 variable "instance_type" {
   description = "EC2 instance type for the Mailcow server"
   type        = string
-  default     = "m7i-flex.large"
+  default     = "c7i-flex.large"
 }
 
 variable "ubuntu_ami_id" {
